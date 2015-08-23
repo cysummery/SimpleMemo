@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aAU-pd-vrU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setting View Controller-->
+        <scene sceneID="3DJ-wR-GdU">
+            <objects>
+                <tableViewController id="aAU-pd-vrU" customClass="SettingViewController" customModule="Memo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="KRD-Rw-6RB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Lt1-hu-FbP">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="印象便签 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v8r-PI-UG0">
+                            <rect key="frame" x="0.0" y="-21" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <sections>
+                            <tableViewSection id="e3c-Nw-GZc">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="sKx-Xh-zmA">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sKx-Xh-zmA" id="ymO-la-3wc">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EverNoteIcon" translatesAutoresizingMaskIntoConstraints="NO" id="DnR-2O-RRW">
+                                                    <rect key="frame" x="8" y="8" width="28" height="27.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="28" id="jRo-LQ-0gz"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录印象笔记" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGt-Hw-qKd">
+                                                    <rect key="frame" x="46" y="8" width="102" height="27.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="HGt-Hw-qKd" firstAttribute="top" secondItem="ymO-la-3wc" secondAttribute="topMargin" id="5kT-Xt-A0b"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="DnR-2O-RRW" secondAttribute="bottom" id="BXA-7R-ARk"/>
+                                                <constraint firstItem="DnR-2O-RRW" firstAttribute="leading" secondItem="ymO-la-3wc" secondAttribute="leadingMargin" id="ONr-97-qcq"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="HGt-Hw-qKd" secondAttribute="bottom" id="WY1-Fe-NpW"/>
+                                                <constraint firstItem="HGt-Hw-qKd" firstAttribute="leading" secondItem="DnR-2O-RRW" secondAttribute="trailing" constant="10" id="d0N-3C-pbe"/>
+                                                <constraint firstItem="DnR-2O-RRW" firstAttribute="top" secondItem="ymO-la-3wc" secondAttribute="topMargin" id="jZb-tz-lBd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="7hh-an-bea">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="EY3-Z3-Rlk">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EY3-Z3-Rlk" id="HrQ-ba-vRP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关于" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nH7-0V-EQB">
+                                                    <rect key="frame" x="28" y="8" width="34" height="27.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="nH7-0V-EQB" firstAttribute="leading" secondItem="HrQ-ba-vRP" secondAttribute="leadingMargin" constant="20" id="WUR-mU-SGS"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nH7-0V-EQB" secondAttribute="bottom" id="buA-Yv-IJh"/>
+                                                <constraint firstItem="nH7-0V-EQB" firstAttribute="top" secondItem="HrQ-ba-vRP" secondAttribute="topMargin" id="gD8-R6-clz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aL8-9y-Giz">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aL8-9y-Giz" id="flv-tH-U9d">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="aAU-pd-vrU" id="5Bm-7Y-XdE"/>
+                            <outlet property="delegate" destination="aAU-pd-vrU" id="4WL-F7-COe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="mLH-JA-iIF"/>
+                    <connections>
+                        <outlet property="loginEvernote" destination="HGt-Hw-qKd" id="36F-IU-mfT"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ug-uI-L4s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="187"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EverNoteIcon" width="60" height="60"/>
+    </resources>
+</document>
