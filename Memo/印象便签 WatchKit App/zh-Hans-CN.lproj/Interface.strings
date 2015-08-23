@@ -1,0 +1,21 @@
+
+/* Class = "WKInterfaceLabel"; text = "最新便签"; ObjectID = "8nQ-6Q-hd8"; */
+"8nQ-6Q-hd8.text" = "最新便签";
+
+/* Class = "WKInterfaceLabel"; text = "易便签"; ObjectID = "94U-RQ-gkY"; */
+"94U-RQ-gkY.text" = "易便签";
+
+/* Class = "WKInterfaceController"; title = "易便签"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "易便签";
+
+/* Class = "WKInterfaceController"; title = "便签"; ObjectID = "cEz-Tx-ZbD"; */
+"cEz-Tx-ZbD.title" = "便签";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "h8l-04-6mZ"; */
+"h8l-04-6mZ.text" = "Label";
+
+/* Class = "WKInterfaceButton"; title = "新建便签"; ObjectID = "hxe-gb-ayi"; */
+"hxe-gb-ayi.title" = "新建便签";
+
+/* Class = "WKInterfaceLabel"; text = "快捷视图"; ObjectID = "puv-9c-KQU"; */
+"puv-9c-KQU.text" = "快捷视图";
