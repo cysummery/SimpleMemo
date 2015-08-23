@@ -1,7 +1,7 @@
 # SimpleMemo
 已上架应用“易便签”的源代码，如果发现bug和可优化之处，请一定告诉我：likumb@outlook.com
 
-**易便签:** https://itunes.apple.com/cn/app/yi-bian-qian/id1029807896?mt=8
+**下载易便签:** https://itunes.apple.com/cn/app/yi-bian-qian/id1029807896?mt=8
 
 ## 主要功能特点
 - **swift1.2编写** 
